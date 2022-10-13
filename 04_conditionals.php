@@ -12,8 +12,21 @@ $t = date("H");
 if($t < 12){
     echo 'Good morning';
 } elseif($t<17){
-    echo 'Good afternoon';
+    echo 'Good afternoons';
 }else {
     echo 'Good evening';
 }
+
+$color = 'red';
+
+switch($color){
+    case 'red':
+        echo 'Favorite color is red';
+        break;
+    case 'blue':
+        echo 'Favorite color is  blue' ;
+        break;
+    default:
+    echo 'Not matching';
+    }
 ?>
